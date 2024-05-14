@@ -1,0 +1,63 @@
+:root{
+    --black:#000;
+    --white:#fff;
+}
+
+
+.h-menu{
+    background-color: transparent  ;
+    width: 100% !important;
+    position: fixed !important;
+    display: block !important;
+    background-color: #00000086;
+    
+  
+   
+    
+}
+
+.h-menu a{
+    color: var(--white);
+}
+
+.h-menu a:hover,.h-menu a:focus{
+    color: #ffffffaf !important;
+}
+
+.navbar-toggler{
+    box-shadow: none !important;
+    border: none !important;
+}
+
+
+.iconMenu{
+    color: #fff !important;
+    font-size: 1.9em;
+}
+
+
+@media (max-width:992px)  {
+    .meuMenu{
+        background-color: #fff !important;
+        transition: all 300ms ease-in;
+        width: 260px !important;
+        float: right;
+        position: relative;
+        padding: 18px !important;
+        border-radius: 12px;
+        margin-top: 20px;
+        margin-bottom: 20px !important;
+        
+    }
+    .meuMenu li a{
+        color: #000 !important;
+    }
+    .meuMenu li a:hover{
+        color: #0000ffea !important;
+    }
+
+  
+
+}
+
+    
