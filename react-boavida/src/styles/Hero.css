@@ -1,0 +1,82 @@
+.hero-wrapper-all {
+    background-color: #000;
+}
+
+.hero-wrapper {
+    color: wheat;
+    position: relative;
+    padding: 2rem;
+}
+
+.hero-imagem {
+    width: 25rem;
+    height: 30rem;
+    overflow: hidden;
+}
+
+.propria-imagem {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border: 8px solid rgba(255, 255, 255, 0.12);
+}
+
+
+
+
+.float-start {
+    position: relative;
+    z-index: 10 !important;
+}
+
+[id="enviar"] {
+    padding: 10px 10px 17px 10px;
+    border-radius: .2em;
+
+}
+
+[id="enviar"] .inputText {
+    width: 45%;
+}
+
+[id="enviar"] .novoBtn {
+    width: 38%;
+    text-align: center !important;
+
+}
+
+[id="enviar"] .icon {
+    width: 10%;
+}
+
+@media (max-width:888px) {
+
+    .hero-imagem {
+        margin: auto !important;
+        width: 100%;
+    }
+
+}
+
+@media (max-width:400px) {
+    [id="enviar"] .inputText {
+        width: 40%;
+    }
+
+    [id="enviar"] .novoBtn {
+        width: 43%;
+        text-align: center !important;
+
+    }
+}
+.spanPrimeiro{
+    font-size: 1.5em;
+}
+
+.spanPrimeiro span:nth-child(2){
+    color: #ffa500;
+}
+
+.spanPacote{
+    font-size: .9em;
+    color: #ffffff8f;
+}

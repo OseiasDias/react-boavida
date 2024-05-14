@@ -1,0 +1,28 @@
+
+[
+
+    {
+        "name":"Casa T3 Com Jardin",
+        "preco":"25000",
+        "detalhes":"Jardin 4x5, Alvenaria",
+        "image":"../assets/img/r1.png"
+    },
+    {
+        "name":"Casa V4 Com Piscina",
+        "preco":"35000",
+        "detalhes":"Jardin 3x3 e uma Piscina 4x6, Pavimento de Betao",
+        "image":"../assets/img/r2.png"
+    },
+    {
+        "name":"Casa V6 Duplex",
+        "preco":"55000",
+        "detalhes":"Jardin 4x5, Alvenaria",
+        "image":"../assets/img/r3.png"
+    },
+    {
+        "name":"Casa T3 Com Jardin",
+        "preco":"25000",
+        "detalhes":"Jardin 4x5, Alvenaria",
+        "image":"../assets/img/r1.png"
+    }
+]

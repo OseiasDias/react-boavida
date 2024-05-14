@@ -1,0 +1,21 @@
+.App{
+    position: relative;
+    overflow-x: clip;
+}
+
+.App>:nth-child(1){
+    background-color: #000;
+    position: relative;
+}
+
+
+.gradiente-branco{
+    position: absolute;
+    width:15rem;
+    height: 10rem;
+    background: rgba(255, 255,255, .552);
+    filter: blur(70px);
+    border-radius: 50%;
+     margin-top: 200px;
+
+}
